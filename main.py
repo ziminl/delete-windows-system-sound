@@ -1,5 +1,6 @@
 
 
+
 import winreg as reg
 
 def disable_system_sounds():
@@ -31,5 +32,9 @@ def disable_system_sounds():
     except Exception as e:
         print(f"An error occurred: {e}")
 
+
+
 if __name__ == "__main__":
     disable_system_sounds()
+
+
