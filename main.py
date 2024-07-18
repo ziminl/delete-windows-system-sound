@@ -30,7 +30,7 @@ def disable_system_sounds():
         print("System sounds disabled successfully.")
         
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"{e}")
 
 
 
